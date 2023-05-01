@@ -1,0 +1,20 @@
+{
+  "name": "tptesting",
+  "version": "1.0.0",
+  "description": "trabajo practico usando mocha chai etc",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha || exit 0"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "js"
+  ],
+  "author": "lourdesMurua",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
